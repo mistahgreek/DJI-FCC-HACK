@@ -44,12 +44,11 @@ This app should work on any Android device running Android 8 and above.
 * DJI Mavic Air 2
 * DJI Mini 4K
 * DJI Mini 2
-* DJI Mini 3 (non-Pro)
 * DJI Air 2S
 * DJI Neo 2
 
-> [!NOTE]
-> **DJI Mini 3 users**: This app now supports the Mini 3 (non-Pro) with the standard N1 remote controller (without screen). The remote may show different USB device IDs when connected to the drone.
+> [!WARNING]
+> **DJI Mini 3 (non-Pro) is NOT currently supported.** The FCC magic bytes used in this app do not work with the Mini 3. This is a known limitation of the upstream project. If someone discovers the correct bytes for Mini 3, please open an issue or PR.
 
 > [!NOTE]
 > Please let me know if you have tested this app on another drone so I can update this README.
